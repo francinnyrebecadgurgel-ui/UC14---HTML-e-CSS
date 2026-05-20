@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+
+
+#titulo-clinica {
+    text-align: center;
+    color: #100daa;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+
+
+.bemvindo {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+h2 {
+    color: #100daa;;
+    margin: 30px 0 20px;
+}
+
+
+#servicos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.servico {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.servico h3 {
+    color: #100daa;;
+    margin-bottom: 10px;
+}
+
+
+#medicos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.medico {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #100daa;;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medico h3 {
+    color: #100daa;;
+    margin-bottom: 10px;
+}
+
+
+
+#aviso {
+    background-color: #9695c5;;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #115e59;
+    width: 80%;
+}
+
+
+
+.depoimento {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+
+hr {
+    margin: 30px 0;
+}

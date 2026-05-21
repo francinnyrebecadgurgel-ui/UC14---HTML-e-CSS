@@ -1,110 +1,63 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
-    background-color: #f4f9f9;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
     color: #333;
-    padding: 20px;
+    margin: 20px;
 }
-
-
 
 #titulo-clinica {
     text-align: center;
-    color: #100daa;
-    margin-bottom: 20px;
-    font-size: 40px;
+    color: #2c7a7b;
 }
-
-
 
 .bemvindo {
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-
-
 
 h2 {
-    color: #100daa;;
-    margin: 30px 0 20px;
+    color: #2c7a7b;
+    margin-top: 20px;
 }
 
-
-#servicos {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.servico {
-    background-color: white;
-    width: 250px;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.servico h3 {
-    color: #100daa;;
-    margin-bottom: 10px;
-}
-
-
+#servicos,
 #medicos {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin-top: 15px;
 }
 
+.servico,
 .medico {
     background-color: white;
-    width: 250px;
-    padding: 20px;
-    border-radius: 12px;
-    border-left: 5px solid #100daa;;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
-
-.medico h3 {
-    color: #100daa;;
-    margin-bottom: 10px;
-}
-
-
 
 #aviso {
-    background-color: #9695c5;;
-    padding: 20px;
-    margin: 30px auto;
-    border-radius: 10px;
-    text-align: center;
-    font-weight: bold;
-    color: #115e59;
-    width: 80%;
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
-
-
-.depoimento {
+.avaliação {
     background-color: white;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-style: italic;
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 5px solid #2c7a7b;
 }
 
+input[type="button"] {
+    background-color: #225e5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-hr {
-    margin: 30px 0;
+input[type="button"]:hover {
+    background-color: #033c3d;
 }
